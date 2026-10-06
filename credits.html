@@ -19,7 +19,7 @@
       <h2>Detail++</h2>
       <p>Lifeng Chen, Jiner Wang, Zihao Pan, Beier Zhu, Xiaofeng Yang, and Chi Zhang.</p>
       <p><a href="https://detail-plus-plus.github.io/">Project page</a> · <a href="https://arxiv.org/abs/2507.17853">Paper</a></p>
-      <p>The animation uses original image panels from an author-supplied version of Figure 2. Moving prompt cards, shrinking panels, and branch animations explain prompt decomposition, parallel branches with shared layout, and progressive detail injection. The images are published examples used to illustrate the method; the presentation does not depict elapsed inference time or a live inference recording.</p>
+      <p>The animation uses original image panels from an author-supplied version of Figure 2. Moving prompt cards explain decomposition and parallel branches sharing self-attention from the full prompt. An explicit base-latent and two-update chain illustrates early-stage Accumulative Latent Modification, retaining earlier content outside each subject mask. The ending compares the complete-prompt baseline with the final accumulated Detail++ result under the same full prompt. These complete images are published examples; the latent update diagram is schematic, and the presentation does not depict elapsed inference time or live inference.</p>
       <p>The project page states a <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a> license. The adapted project artwork is distributed under the same license.</p>
     </section>
     <section>
@@ -32,7 +32,7 @@
     <section>
       <h2>GENESIS</h2>
       <p>Fan Yang, Lifeng Chen, Yipu Wang, Han Wang, and coauthors.</p>
-      <p>The illustrated reasoning trace follows the chain of thought accompanying appendix Figure 6 in the manuscript supplied by Lifeng Chen. The base scene was edited with AI to remove its baked-in annotations. The six objects, their arrangement, and their relevant visual attributes were checked against Figure 6. New white object contours, white text labels, and colored leaders follow the original annotation style. The paper's text appears as a simulated autoregressive token stream, with corresponding object phrases and visual primitives sharing an accent color. The illustrated trace concludes with four remaining objects; it is not a live model execution. Rights remain with the original authors.</p>
+      <p>The illustrated reasoning trace follows the chain of thought accompanying appendix Figure 6 in the manuscript supplied by Lifeng Chen. The base scene was edited with AI to remove its baked-in annotations. The six objects and their relevant visual attributes were checked against Figure 6. New white contours and labels follow the original annotation style. The paper's text appears as a simulated autoregressive token stream: the current object's contour activates after its identifying phrase appears, while historical labels fade without active contours. Corresponding phrases and primitives share an accent color; underlines emphasize the current reference. The final sentence accumulates the four remaining objects. This illustrated trace is not live model execution. Rights remain with the original authors.</p>
     </section>
     <section>
       <h2>MedVIGIL</h2>
