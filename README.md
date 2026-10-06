@@ -7,6 +7,7 @@ A small static academic homepage with a light default theme, an optional dark th
 ## Update content
 
 - Edit `index.html` for About me, publications, and the research-experience timeline. Education is summarized in About me.
+- The About me introduction describes Lifeng as a first-year Ph.D. student. The document icon after LinkedIn links to `assets/Lifeng_Chen_CV.pdf`, copied from the author-supplied resume PDF.
 - Edit `style.css` for layout and colors. After a style change, update the stylesheet `v` parameter in `index.html` and `credits.html` so browsers load the current version.
 - Replace `assets/profile-anime.webp` to change the selected profile illustration, and update its source record in `credits.html`.
 - The lucky-cat favicon is provided in `assets/favicon-cat.ico` (16, 32, and 48px), `assets/favicon-cat-32.png` (32px), and `assets/favicon-cat-180.png` (180px Apple touch icon). Keep the icon references in both HTML files consistent when changing it.
@@ -14,7 +15,7 @@ A small static academic homepage with a light default theme, an optional dark th
 - Publication entries contain the title, authors, a venue when supplied, and resource links or status. Publication venues and personal dates follow the author's supplied record.
 - Publication order: Detail++, ECHO, Genesis, MeDiM, MedVIGIL. Genesis lists all sixteen authors, with equal-contribution marks on the first four. Below its venue, the resource row reads "Code and Tech Report is coming soon". MedVIGIL lists NeurIPS 2026 (Evaluations & Datasets Track) and shows "Code and Paper is coming soon" below the venue. These status rows use the resource-link color without hyperlinks. The equal-contribution note applies to the full publication list.
 
-The homepage uses public professional contact information and concise publication records. The original resume PDF is not included in the repository.
+The homepage uses professional contact information and concise publication records. The author-supplied two-page CV is available through the profile's CV link.
 
 ## Preview locally
 
@@ -36,9 +37,9 @@ The homepage layout and code are original. The simple academic presentation was 
 
 | Asset | Original source | Attribution and license |
 | --- | --- | --- |
-| `assets/detail-demo.mp4`, `assets/detail-poster.jpg` | Author-supplied `intro.pdf`, corresponding to Figure 2 in the [Detail++ paper](https://arxiv.org/abs/2507.17853) | Lifeng Chen et al. Original 1024px image panels are presented with eased pans, shrink-and-move transitions into branch nodes, sliding comparisons, and focused detail zooms before returning to the overview. 22s, 1280×720, 24fps. The animation illustrates attribute injection; branches actually run in parallel. Original project artwork is distributed under CC BY-SA 4.0. |
+| `assets/detail-demo.mp4`, `assets/detail-poster.jpg` | Author-supplied `intro.pdf`, corresponding to Figure 2 in the [Detail++ paper](https://arxiv.org/abs/2507.17853) | Lifeng Chen et al. Two large original-image comparisons show attribute or style blending versus the correctly bound Detail++ result. Synchronized zooms and matched highlights focus on one detail at a time before returning to the full images. The presentation uses pans and shrink/zoom transitions; it is not a recording of inference. Original project artwork is distributed under CC BY-SA 4.0. |
 | `assets/echo-demo.mp4`, `assets/echo-poster.jpg` | [Original ECHO demo video](https://echo-midea-airc.github.io/images/demo_cropped.mp4) | Lifeng Chen et al.; MP4 is copied byte-for-byte, 1006×614, 11.64s, 25fps. Poster extracted at 11s. Original project media is distributed under CC BY-SA 4.0. |
-| `assets/genesis-demo.mp4`, `assets/genesis-poster.jpg` | Author-supplied GENESIS manuscript, appendix Figure 6 and its accompanying chain of thought | Fan Yang, Lifeng Chen, et al. The base scene is an AI-cleaned adaptation of Figure 6: baked-in annotation boxes, leaders, exclusion icons, and artificial white contours were removed. Its six objects and query-relevant attributes were visually checked against the source. New cues appear progressively to connect visual attributes, compound predicates, and the final answer of four remaining objects. The overlays illustrate the paper's CoT. 24s, 1280×720, 24fps. Rights remain with the original authors. |
+| `assets/genesis-demo.mp4`, `assets/genesis-poster.jpg` | Author-supplied GENESIS manuscript, appendix Figure 6 and its accompanying chain of thought | Fan Yang, Lifeng Chen, et al. The base scene is an AI-cleaned adaptation of Figure 6: baked-in annotation boxes, leaders, exclusion icons, and artificial white contours were removed. Its six objects and query-relevant attributes were visually checked against the source. Progressive object borders and text callouts are paired with the corresponding reasoning sentences from Figure 6, leading to four remaining objects. The animation uses sentence-to-image grounding instead of object numbers or an attribute table. Rights remain with the original authors. |
 | `assets/medvigil-motivation.webp` | Author-supplied MedVIGIL motivation figure | Hanqi Jiang et al., including Lifeng Chen. Lossless 3924×1448 WebP preserves every RGBA pixel and all three figure columns. Rights remain with the original authors. |
 | `assets/medim.webp` | [MeDiM framework](https://jwmao1.github.io/MeDiM_web/images/images/framework.jpg) | Jiawei Mao et al., including Lifeng Chen; no separate image license is stated on the [project page](https://jwmao1.github.io/MeDiM_web/). Rights remain with the original authors. |
 | `assets/profile-anime.webp` | User-provided anime screenshot | Selected central character reframed and resized to a 512 × 512 artistic profile illustration. Rights remain with the original creators. |
@@ -49,4 +50,4 @@ The homepage layout and code are original. The simple academic presentation was 
 | `assets/google-scholar.svg`, `assets/github.svg` | [Simple Icons](https://github.com/simple-icons/simple-icons/tree/98820a4dc8c363ca72fa2c0d294ea4a0a9bba75d/icons) | CC0 1.0; Google Scholar color adjusted, GitHub white backing added. |
 | `assets/linkedin.svg` | [Font Awesome Free / Fonticons, Inc.](https://github.com/FortAwesome/Font-Awesome/blob/14c65a3747d0f3b751f15831fc719236aea8729d/svgs/brands/linkedin.svg) | CC BY 4.0; color and SVG viewport adjusted. |
 
-All videos are silent H.264/yuv420p with faststart for browser playback. Original manuscripts and the source CV are not published in this repository. Full credits are also available on the [image credits page](https://clf28.github.io/credits.html).
+All videos are silent H.264/yuv420p with faststart for browser playback. Original manuscripts are not published in this repository. The profile's CV PDF is published at the author's request. Full credits are also available on the [image credits page](https://clf28.github.io/credits.html).
