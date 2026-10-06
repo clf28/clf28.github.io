@@ -12,7 +12,7 @@ A small static academic homepage with a light default theme, an optional dark th
 - The lucky-cat favicon is provided in `assets/favicon-cat.ico` (16, 32, and 48px), `assets/favicon-cat-32.png` (32px), and `assets/favicon-cat-180.png` (180px Apple touch icon). Keep the icon references in both HTML files consistent when changing it.
 - Add publication figures or videos to `assets/`, retaining source attribution in `credits.html`. Each paper uses a 16:9 media frame. Replace its `<img>` with a `<video controls playsinline preload="metadata" poster="assets/example.webp"><source src="assets/example.mp4" type="video/mp4"></video>` when a video is ready. A video with controls should sit inside a `<div class="paper-figure">` rather than a project-page link, so controls do not trigger navigation.
 - Publication entries contain the title, authors, a venue when supplied, and resource links or status. Publication venues and personal dates follow the author's supplied record.
-- Genesis lists all sixteen authors, with equal-contribution marks on the first four, and shows "Code and Tech Report coming soon." The equal-contribution note applies to the full publication list. MedVIGIL uses a text thumbnail; its venue and resources are omitted until provided.
+- Genesis lists all sixteen authors, with equal-contribution marks on the first four, and shows "Code and Tech Report coming soon." The equal-contribution note applies to the full publication list. MedVIGIL uses a text thumbnail and lists NeurIPS 2026 (Evaluations & Datasets Track); resource links remain omitted until provided.
 
 The homepage uses public professional contact information and concise publication records. The original resume PDF is not included in the repository.
 
