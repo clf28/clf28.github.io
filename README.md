@@ -8,12 +8,13 @@ A small static academic homepage with a light default theme, an optional dark th
 
 - Edit `index.html` for About me, publications, and the research-experience timeline. Education is summarized in About me.
 - The About me introduction describes Lifeng as a first-year Ph.D. student.
+- The document icon after LinkedIn links to `assets/Lifeng_Chen_CV.pdf`. Replace this file with the latest author-supplied `Lifeng_Chen_CV.pdf`, and update the CV link's `v` parameter when replacing it.
 - Edit `style.css` for layout and colors. After a style change, update the stylesheet `v` parameter in `index.html` and `credits.html` so browsers load the current version.
 - Replace `assets/profile-anime.webp` to change the selected profile illustration, and update its source record in `credits.html`.
 - The lucky-cat favicon is provided in `assets/favicon-cat.ico` (16, 32, and 48px), `assets/favicon-cat-32.png` (32px), and `assets/favicon-cat-180.png` (180px Apple touch icon). Keep the icon references in both HTML files consistent when changing it.
 - Add publication figures or videos to `assets/`, retaining source attribution in `credits.html`. Every thumbnail uses a 16:9 frame and `object-fit: contain` to preserve the complete source. `media.js` manages the silent looping video previews, pause controls, and click-to-enlarge dialogs with native video controls. Previews load/play as they enter the viewport, pause offscreen and in background tabs, and honor reduced-motion preferences. Mobile thumbnails use the available column width.
 - Publication entries contain the title, authors, a venue when supplied, and resource links or status. Publication venues and personal dates follow the author's supplied record.
-- Publication order: Detail++, ECHO, Genesis, MeDiM, MedVIGIL. Genesis lists all sixteen authors, with equal-contribution marks on the first four. Below its venue, the resource row reads "Code and Tech Report is coming soon". MedVIGIL lists NeurIPS 2026 (Evaluations & Datasets Track) and shows "Code and Paper is coming soon" below the venue. These status rows use the resource-link color without hyperlinks. The equal-contribution note applies to the full publication list.
+- Publication order: Detail++, ECHO, Genesis, MeDiM, MedVIGIL. ECHO marks its first two authors, Lifeng Chen and Tianqi You, as equal contributors. Genesis lists all sixteen authors, with equal-contribution marks on the first four. Below its venue, the resource row reads "Code and Tech Report is coming soon". MedVIGIL lists NeurIPS 2026 (Evaluations & Datasets Track) and shows "Code and Paper is coming soon" below the venue. These status rows use the resource-link color without hyperlinks. The shared "* Equal contribution." note below the publication list applies to all marked authors.
 
 The homepage uses professional contact information and concise publication records.
 
@@ -50,4 +51,4 @@ The homepage layout and code are original. The simple academic presentation was 
 | `assets/google-scholar.svg`, `assets/github.svg` | [Simple Icons](https://github.com/simple-icons/simple-icons/tree/98820a4dc8c363ca72fa2c0d294ea4a0a9bba75d/icons) | CC0 1.0; Google Scholar color adjusted, GitHub white backing added. |
 | `assets/linkedin.svg` | [Font Awesome Free / Fonticons, Inc.](https://github.com/FortAwesome/Font-Awesome/blob/14c65a3747d0f3b751f15831fc719236aea8729d/svgs/brands/linkedin.svg) | CC BY 4.0; color and SVG viewport adjusted. |
 
-All videos are silent H.264/yuv420p with faststart for browser playback. Original manuscripts are not published in this repository. Full credits are also available on the [image credits page](https://clf28.github.io/credits.html).
+All videos are silent H.264/yuv420p with faststart for browser playback. Original manuscripts are not published in this repository. The current author-supplied CV is published at `assets/Lifeng_Chen_CV.pdf` at the author's request. Full credits are also available on the [image credits page](https://clf28.github.io/credits.html).
