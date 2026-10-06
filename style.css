@@ -75,16 +75,24 @@ section { margin-bottom: 44px; scroll-margin-top: 24px; }
 .paper-wordmark small { margin-top: 4px; color: var(--muted); font-size: 10px; letter-spacing: .4px; }
 .publication-note { color: var(--muted); font-size: 12px; margin: 15px 0 0 309px; }
 sup { font-size: .75em; line-height: 0; }
-.experience-list { margin-top: 6px; }
-.experience { display: grid; grid-template-columns: 170px minmax(0, 1fr) 180px; align-items: center; gap: 24px; padding: 22px 0; border-bottom: 1px solid var(--line); }
-.experience:last-child { border-bottom: 0; padding-bottom: 0; }
+.experience-list { margin-top: 26px; padding-left: 36px; }
+.experience { position: relative; padding-bottom: 30px; }
+.experience:last-child { padding-bottom: 0; }
+.experience::before { content: ""; position: absolute; left: -36px; top: 6px; width: 10px; height: 10px; border-radius: 50%; background: var(--link); z-index: 1; }
+.experience:not(:last-child)::after { content: ""; position: absolute; left: -32px; top: 11px; bottom: -11px; width: 2px; background: var(--line); }
+.experience-body { display: grid; grid-template-columns: 100px minmax(0, 1fr); align-items: center; gap: 24px; margin-top: 9px; }
+.experience-logo { display: flex; align-items: center; justify-content: center; width: 100px; height: 72px; overflow: hidden; background: #fff; border: 1px solid var(--line); border-radius: 5px; }
+.experience-logo img { display: block; flex: 0 0 auto; object-fit: contain; }
+.logo-firered img { width: 88px; height: 64px; }
+.logo-midea img { width: 120px; height: 90px; }
+.logo-westlake img { width: 56px; height: 56px; }
 .experience-position { min-width: 0; }
-.experience h3 { font-weight: 600; }
+.experience h3 { font-size: 16px; font-weight: 600; line-height: 1.6; }
 .team { font-weight: 400; }
 .experience .date { font-size: 13px; line-height: 1.6; color: var(--muted); margin: 0; white-space: nowrap; }
-.experience .role { font-size: 13px; color: var(--muted); margin: 4px 0 0; }
-.experience .mentor { font-size: 14px; margin: 0; text-align: right; }
-.experience .mentor span { display: block; font-size: 11px; color: var(--muted); margin-bottom: 3px; }
+.experience .role { font-size: 14px; line-height: 1.8; color: var(--muted); margin: 5px 0 0; }
+.experience .role a { white-space: nowrap; }
+.role-divider { margin: 0 5px; }
 footer { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 5px 20px; border-top: 1px solid var(--line); padding-top: 17px; color: var(--muted); font-size: 11px; }
 footer a { color: var(--muted); }
 .skip-link { position: fixed; top: 8px; left: 8px; padding: 6px 12px; background: var(--background); transform: translateY(-150%); z-index: 1; }
@@ -101,9 +109,17 @@ footer a { color: var(--muted); }
   .publication { grid-template-columns: 145px minmax(0, 1fr); gap: 20px; }
   .paper-copy h3 { font-size: 17px; }
   .publication-note { margin-left: 165px; }
-  .experience { grid-template-columns: minmax(0, 1fr) auto; gap: 8px 18px; padding: 21px 0; }
-  .experience .date { grid-column: 1 / -1; font-size: 12px; }
-  .experience .mentor { font-size: 13px; }
+  .experience-list { padding-left: 30px; }
+  .experience::before { left: -30px; }
+  .experience:not(:last-child)::after { left: -26px; }
+  .experience-body { grid-template-columns: 80px minmax(0, 1fr); gap: 17px; }
+  .experience-logo { width: 80px; height: 64px; }
+  .logo-firered img { width: 72px; height: 54px; }
+  .logo-midea img { width: 98px; height: 74px; }
+  .logo-westlake img { width: 48px; height: 48px; }
+  .experience .date { font-size: 12px; }
+  .experience h3 { font-size: 15px; }
+  .experience .role { font-size: 13px; }
   section { margin-bottom: 36px; }
 }
 @media (max-width: 460px) {
@@ -124,9 +140,11 @@ footer a { color: var(--muted); }
   .profile { gap: 14px; }
   .portrait { width: 80px; height: 80px; }
   h1 { font-size: 24px; }
-  .experience { grid-template-columns: 1fr; gap: 8px; }
-  .experience .mentor { text-align: left; }
-  .experience .mentor span { display: inline; font-size: 12px; margin-right: 6px; }
+  .experience-body { grid-template-columns: 68px minmax(0, 1fr); gap: 13px; }
+  .experience-logo { width: 68px; height: 58px; }
+  .logo-firered img { width: 60px; height: 48px; }
+  .logo-midea img { width: 84px; height: 63px; }
+  .logo-westlake img { width: 44px; height: 44px; }
 }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 @media print {

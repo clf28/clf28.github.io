@@ -6,7 +6,7 @@ A small static academic homepage with a light default theme, an optional dark th
 
 ## Update content
 
-- Edit `index.html` for About me, publications, and the research-experience rows. Education is summarized in About me.
+- Edit `index.html` for About me, publications, and the research-experience timeline. Education is summarized in About me.
 - Edit `style.css` for layout and colors. After a style change, update the stylesheet `v` parameter in `index.html` and `credits.html` so browsers load the current version.
 - Replace `assets/profile-anime.webp` to change the selected profile illustration, and update its source record in `credits.html`.
 - The lucky-cat favicon is provided in `assets/favicon-cat.ico` (16, 32, and 48px), `assets/favicon-cat-32.png` (32px), and `assets/favicon-cat-180.png` (180px Apple touch icon). Keep the icon references in both HTML files consistent when changing it.
@@ -40,6 +40,9 @@ The homepage layout and code are original. The simple academic presentation was 
 | `assets/medim.webp` | [MeDiM framework](https://jwmao1.github.io/MeDiM_web/images/images/framework.jpg) | Jiawei Mao et al., including Lifeng Chen; no separate image license is stated on the [project page](https://jwmao1.github.io/MeDiM_web/). Rights remain with the original authors. |
 | `assets/profile-anime.webp` | User-provided anime screenshot | Selected central character reframed and resized to a 512 × 512 artistic profile illustration. Rights remain with the original creators. |
 | `assets/favicon-cat.ico`, `assets/favicon-cat-32.png`, `assets/favicon-cat-180.png` | User-provided anime screenshot | Large lucky cat reframed and resized for browser and Apple touch icons. Rights remain with the original creators. |
+| `assets/experience-firered.png` | User-provided FireRed logo representing Xiaohongshu | Copied without image changes. Brand and trademark rights remain with the respective organization. |
+| `assets/experience-midea.png` | User-provided Midea logo | Copied without image changes. Brand and trademark rights remain with Midea. |
+| `assets/experience-westlake.png` | User-provided Westlake University logo | Copied without image changes. Brand and trademark rights remain with Westlake University. |
 | `assets/google-scholar.svg`, `assets/github.svg` | [Simple Icons](https://github.com/simple-icons/simple-icons/tree/98820a4dc8c363ca72fa2c0d294ea4a0a9bba75d/icons) | CC0 1.0; Google Scholar color adjusted, GitHub white backing added. |
 | `assets/linkedin.svg` | [Font Awesome Free / Fonticons, Inc.](https://github.com/FortAwesome/Font-Awesome/blob/14c65a3747d0f3b751f15831fc719236aea8729d/svgs/brands/linkedin.svg) | CC BY 4.0; color and SVG viewport adjusted. |
 
