@@ -61,8 +61,6 @@ section { margin-bottom: 44px; scroll-margin-top: 24px; }
 #about p { line-height: 1.9; }
 .publications { display: grid; gap: 29px; }
 .publication { display: grid; grid-template-columns: 281px minmax(0, 1fr); gap: 28px; align-items: center; }
-.paper-visual { display: flex; flex-direction: column; align-items: flex-start; gap: 7px; min-width: 0; }
-.venue-badge { display: inline-block; max-width: 100%; padding: 3px 9px; border-radius: 3px; background: #994449; color: #fff; font-size: 11px; font-weight: 600; line-height: 18px; letter-spacing: .02em; }
 .paper-figure, .paper-wordmark { position: relative; width: 100%; aspect-ratio: 16 / 9; min-width: 0; border-radius: 3px; }
 .paper-figure { display: flex; align-items: center; justify-content: center; background: #fff; }
 .paper-figure img, .paper-figure video, .paper-wordmark img, .paper-wordmark video { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: contain; border-radius: inherit; }
